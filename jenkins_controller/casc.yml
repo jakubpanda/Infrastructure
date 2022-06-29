@@ -10,5 +10,10 @@ jenkins:
       permissions:
       - "USER:Overall/Administer:panda"
   numExecutors: 0
+unclassified:
+  locale:
+    systemLocale: "en_EN"
+    ignoreAcceptLanguage: true
+
 
       
