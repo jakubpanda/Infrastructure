@@ -16,6 +16,9 @@ unclassified:
     systemLocale: "en_EN"
     ignoreAcceptLanguage: true
 
+  location:
+    url: "http://192.168.44.44:8880"
+
   sonarGlobalConfiguration:
     installations:
     - name: "SonarQube"
