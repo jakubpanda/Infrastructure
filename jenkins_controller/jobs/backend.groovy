@@ -8,7 +8,7 @@ pipelineJob('backend') {
                         url("https://github.com/jakubpanda/Backend.git")
                     }
                     branches('main')
-                    scriptPath('JenkinsFile')
+                    scriptPath('Jenkinsfile')
                 }
             }
         }
