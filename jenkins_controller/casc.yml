@@ -90,14 +90,14 @@ tool:
           - sonarRunnerInstaller:
               id: "4.7.0.2747"
 
-   terraform:
-      installations:
-      - name: "Terraform"
-        properties:
-        - installSource:
-            installers:
-            - terraformInstaller:
-                id: "20706-linux-amd64"
+  terraform:
+    installations:
+    - name: "Terraform"
+      properties:
+      - installSource:
+          installers:
+          - terraformInstaller:
+              id: "20706-linux-amd64"
 
 jobs:
   - file: /usr/share/jenkins/ref/jobs/backend.groovy
